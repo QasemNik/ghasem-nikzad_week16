@@ -95,7 +95,7 @@ const Input = ({ hint, cities }) => {
 
 Input.propTypes = {
   hint: PropTypes.string.isRequired,
-  cities: PropTypes.arrayOf(PropTypes.string).isRequired,
+  cities: PropTypes.string.isRequired,
 };
 
 export default Input;
